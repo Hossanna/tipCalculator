@@ -1,0 +1,173 @@
+@media (min-width: 0px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-color: hsl(185, 41%, 84%);
+    }
+    
+    .container{
+        height: 100%;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: hsl(185, 41%, 84%);
+    }
+    
+    .header{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .splitter{
+        margin-top: 5%;
+    }
+    
+    .box{
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid hsl(185, 41%, 84%);
+        border-radius: 10px;
+        margin: 4% 27%;
+        display: flex;
+        padding: 2%;
+        
+    }
+    
+    .left{
+        width: 50%;
+        
+    }
+    
+    input{
+        width: 84%;
+        background-color: hsl(189deg 62% 92%);
+        border: none;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+    
+    .right{
+        width: 50%;
+        float: right;
+        border-radius: 10px;
+        background-color: hsl(183, 100%, 15%);
+    }
+    
+    .dark{
+        color: white;
+        background-color: hsl(183, 100%, 15%);
+    }
+    
+    .medium{
+        color: rgb(0, 0, 0);
+        background-color: hsl(172deg 97% 40%);
+    }
+    
+    .light{
+        background-color: hsl(185, 41%, 97%);
+        color: black;
+    }
+    
+    .percent{
+        width: 70px;
+        height: 30px;
+        margin-left: 0;
+        margin: 4px;
+    }
+    
+    .reset{
+        width: 80%;
+        border: none;
+        padding: 2%;
+        margin-left: 10%;
+        margin-top: 38%;
+        margin-bottom: 7%;
+        background-color:hsl(173deg 97% 40%);
+        color: black;
+        text-transform: uppercase;
+    }
+    
+    .font{
+        font-size: 16px;
+    }
+    
+    .tip{
+        margin: 5%;
+        color: white;
+    }
+    
+    button{
+        border: none;
+    } 
+    
+    .one, .two, .three{
+        margin-bottom: 5%;
+    }
+    span{
+        float: right;
+    }
+}
+
+@media(max-width: 750px){
+    body{
+        font-size: 23px;
+    }
+   
+    .splitter{
+        margin-top: 1%;
+    }
+    .box{
+        display: block;
+        width: 90%;
+        padding-bottom: 100%;
+        margin: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .container{
+        padding-top: 5%;
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .one, .two, .three{
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .reset{
+        width: 80%;
+        border: none;
+        font-size: unset;
+        padding: 5%;
+        margin-left: 10%;
+        margin-top: 7%; 
+        margin-bottom: 7%;
+    }
+    .tip{
+        font-size: inherit;
+    }
+
+    input {
+        font-size: 25px;
+        width: 99%;
+        height: 65px;
+        border-radius: 8px;
+    }
+    .font {
+        font-size: 25px;
+    }
+    .percent {
+        width: 145px;
+        font-size: inherit;
+        height: 44px;
+        margin: 7px;
+    }
+
+}
