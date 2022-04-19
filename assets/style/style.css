@@ -7,6 +7,7 @@
     
     body{
         background-color: hsl(185, 41%, 84%);
+        font-family: monospace;
     }
     
     .container{
@@ -19,6 +20,10 @@
     
     .header{
         text-align: center;
+        margin-bottom: .5%;
+        letter-spacing: 5px;
+        font-size: 1.5em;
+        color: hsl(184, 14%, 43%);
         text-transform: uppercase;
     }
     .splitter{
@@ -28,7 +33,7 @@
     .box{
         background-color: hsl(0, 0%, 100%);
         border: 1px solid hsl(185, 41%, 84%);
-        border-radius: 10px;
+        border-radius: 15px;
         margin: 4% 27%;
         display: flex;
         padding: 2%;
@@ -46,54 +51,76 @@
         border: none;
         height: 30px;
         border-radius: 5px;
-        font-size: 24px;
+        font-size: 16px;
     }
     
     .right{
         width: 50%;
         float: right;
-        border-radius: 10px;
+        padding: 1%;
+        border-radius: 12px;
         background-color: hsl(183, 100%, 15%);
     }
     
     .dark{
         color: white;
+        font-weight: 600;
         background-color: hsl(183, 100%, 15%);
     }
     
     .medium{
-        color: rgb(0, 0, 0);
+        color: hsl(183, 100%, 15%);
+        font-weight: 800;
         background-color: hsl(172deg 97% 40%);
     }
     
     .light{
         background-color: hsl(185, 41%, 97%);
-        color: black;
+        font-weight: 700;
+        color: hsl(184, 14%, 43%);
     }
     
     .percent{
-        width: 70px;
+        width: 24%;
         height: 30px;
+        border-radius: 5px;
         margin-left: 0;
         margin: 4px;
     }
     
     .reset{
-        width: 80%;
+        width: 90%;
+        font-weight: 700;
         border: none;
-        padding: 2%;
-        margin-left: 10%;
-        margin-top: 38%;
-        margin-bottom: 7%;
+        padding: 5%;
+        margin-left: 5%;
+        margin-top: 45%;
+        margin-bottom: 5%;
+        border-radius: 5px;
         background-color:hsl(173deg 97% 40%);
-        color: black;
+        color: hsl(183, 100%, 15%);
         text-transform: uppercase;
     }
     
     .font{
-        font-size: 16px;
+        font-size: 12px;
+        margin-bottom: 2%;
+        margin-top: 6%;
     }
     
+    span{
+        color:hsl(173deg 97% 40%);
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: -8%;
+    }
+
+    .person{
+        font-size: .6rem;
+        float: none;
+        color: hsl(185, 41%, 84%);
+    }
+
     .tip{
         margin: 5%;
         color: white;
